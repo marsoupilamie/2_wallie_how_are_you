@@ -17,4 +17,7 @@ def get_wallie_action():
 
 if __name__ == '__main__':
     action = get_wallie_action()
-    print action
+try:
+	print(action)
+except Exception as e:
+	print(e)
